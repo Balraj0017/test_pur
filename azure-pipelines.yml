@@ -13,5 +13,5 @@ steps:
 
       - task: PowerShell@2
         inputs:
-          filePath: 'https://github.com/Balraj0017/test_pur.git/demo.ps1'
+          filePath: 'demo.ps1'
 
