@@ -12,6 +12,15 @@ pool: Default
 steps:
 
       - task: PowerShell@2
+        displayName: "powershell scripting"
         inputs:
           filePath: 'demo.ps1'
+      - task: PowerShell@2
+        displayName: "powershell inline"
+        inputs:
+          targetType: 'inline'
+          script: |
+            # Write your PowerShell commands here.
+            
+            Write-Host "Hello World inline"
 
