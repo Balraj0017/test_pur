@@ -18,8 +18,3 @@ steps:
       # Write your PowerShell commands here.
       
       Write-Host "Hello knoldus here"
-
-- task: PowerShell@2
-  displayName: "powershell from script"
-  inputs:
-    filePath: 'demo.ps1'
