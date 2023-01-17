@@ -1,3 +1,3 @@
-$message = "welcome to the knoldus"
+$message = "welcome to the knoldus."
 
 Write-Output $message
